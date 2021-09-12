@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/CalebEWheeler/react-v6/issues"
   },
-  "homepage": "https://github.com/CalebEWheeler/react-v6#readme"
+  "homepage": "https://github.com/CalebEWheeler/react-v6#readme",
+  "devDependencies": {
+    "prettier": "^2.4.0"
+  }
 }
