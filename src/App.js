@@ -2,7 +2,7 @@ import ReactDOM from 'react-dom';
 import Pet from "./Pet";
 
 const App = () => {
-    let animal = ["Dog"];
+    let animal = ["Dog", "Cat"];
 
     return (
         <div>
@@ -10,6 +10,7 @@ const App = () => {
             <Pet name="Vinny" animal={animal[0]} breed="Canaan Dog" />
             <Pet name="Raylee" animal={animal[0]} breed="Flat Coated Retriever" />
             <Pet name="Sadie" animal={animal[0]} breed="Labrodor Retriever" />
+            <Pet name="Dylan" animal={animal[1]} breed="Norweigan Forest Cat" />
         </div>
     );
 }
